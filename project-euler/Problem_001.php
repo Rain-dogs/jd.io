@@ -8,14 +8,15 @@
   
   $counter = 0;
   
-  for($i=0; $i<1000; $i++){
+  for($i = 0; $i < 1000; $i++){
     
     if($i % 3 == 0 || $i % 5 == 0 ){
     
-      $counter = $counter + $i;
+      $counter += $i;
     
     }
     
   }
   var_dump($counter);
+  
 ?>
